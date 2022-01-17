@@ -1,20 +1,19 @@
 # -*- coding: utf-8 -*-
-import pandas as pd
-import requests
-import yfinance as yf
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib
 import warnings
+
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import plotly.graph_objs as go
 import plotly.io as pio
 import plotly.offline as py
-import plotly.graph_objs as go
-import statsmodels.api as sm
-from sklearn.metrics import mean_squared_error
-from statsmodels.tsa.arima_model import ARIMA
-from statsmodels.tsa.seasonal import seasonal_decompose
+import requests
 import seaborn as sns
+import statsmodels.api as sm
+import yfinance as yf
 from pylab import rcParams
+from sklearn.metrics import mean_squared_error
 
 url = "https://investnews.com.br/financas/veja-a-lista-completa-dos-bdrs-disponiveis-para-pessoas-fisicas-na-b3/"
 r = requests.get(url)
