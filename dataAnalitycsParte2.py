@@ -1,21 +1,18 @@
 # -*- coding: utf-8 -*-
 import warnings
+
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import plotly.graph_objs as go
 import plotly.io as pio
-import tensorflow as tf
-from keras.models import Sequential
-from keras.layers import LSTM, Dense, Dropout
-import plotly.offline as py
 import requests
 import seaborn as sns
-import statsmodels.api as sm
+import tensorflow as tf
 import yfinance as yf
-from pylab import rcParams
-from sklearn.metrics import mean_squared_error
+from keras.layers import LSTM, Dense, Dropout
+from keras.models import Sequential
 
 url = "https://investnews.com.br/financas/veja-a-lista-completa-dos-bdrs-disponiveis-para-pessoas-fisicas-na-b3/"
 r = requests.get(url)
