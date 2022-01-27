@@ -34,7 +34,7 @@ print("Valor otimo:", resultado.fun)
 print("os valores de x são: ")
 nelem = len(resultado.x)
 for i in range(nelem):
-    print("x[", i+1,"]", resultado.x[i])
+    print("x[", i+1,"]=", resultado.x[i])
 
 def resolverDesigualdade(c, A_ub, b_ub):
     res = linprog(c, A_ub=A_ub, b_ub=b_ub, bounds=(0, None))
@@ -59,12 +59,50 @@ def carregar_intancia_desigualdade(opcao):
     else:
        return exemploDesigualdade02()
 
-id_instancia = int(input("digite a opçao para resolução de des1igualdade você tem 1 e 2: "))
+id_instancia = int(input("digite a opçao para resolução de desigualdade você tem 1 e 2: "))
 [c, A_ub, b_ub] = carregar_intancia_desigualdade(id_instancia)
-resultado = resolucaoIgualdade(c, A_ub, b_ub)
+resultado = resolverDesigualdade(c, A_ub, b_ub)
 
 print("Valor otimo:", resultado.fun)
 print("os valores de x são: ")
 nelem = len(resultado.x)
 for i in range(nelem):
-    print("x[", i+1,"]", resultado.x[i])
+    print("x[", i+1,"]=", resultado.x[i])
+
+""" função para ambas iguadade e desigualdade """
+def resolverIgualdadeDesigualdade(c,A_eq, b_eq, A_ub, b_ub):
+    res = linprog(c, A_eq=A_eq, b_eq=b_eq, A_ub=A_ub, b_ub=b_ub, bounds=(0, None))
+    return res
+
+def exemploIgualdadeDesigualdade01():
+    A_ub = np.array([[1, 1, 1]])
+    b_ub = np.array([100])
+    A_eq = np.array([[1, 4, 2]])
+    b_eq = np.array([235])
+    c = np.array([70, 80, 85])
+    return c, A_eq, b_eq, A_ub, b_ub
+
+def exemploIgualdadeDesigualdade02():
+    A_eq = np.array([[1, 1, 1]])
+    b_eq = np.array([100])
+    A_ub = np.array([[1, -3, 2]])
+    b_ub = np.array([25])
+    c = np.array([1, 10, -1])
+    return c, A_eq, b_eq, A_ub, b_ub
+
+def carregar_intancia_igualdade_desigualdade(opcao):
+    if(opcao==1):
+       return exemploIgualdadeDesigualdade01()
+    else:
+       return exemploIgualdadeDesigualdade02()
+
+
+id_instancia = int(input("digite a opçao para resolução de igualdade e desigualdade você tem 1 e 2: "))
+[c, A_eq, b_eq, A_ub, b_ub] = carregar_intancia_igualdade_desigualdade(id_instancia)
+resultado = resolverIgualdadeDesigualdade(c,A_eq, b_eq, A_ub, b_ub)
+
+print("Valor otimo:", resultado.fun)
+print("os valores de x são: ")
+nelem = len(resultado.x)
+for i in range(nelem):
+    print("x[", i+1,"]=", resultado.x[i])
