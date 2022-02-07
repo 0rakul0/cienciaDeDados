@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.optimize import linprog
-from numpy.linalg import solve
 
 """ etapa de funções """
 
@@ -45,7 +44,6 @@ def exemploDesigualdade01():
     b_ub = np.array([100, -235])
     c = np.array([70, 80, 85])
     return c, A_ub, b_ub
-
 
 def exemploDesigualdade02():
     A_ub = np.array([[-1, -1, -1], [1, -3, 2]])
@@ -99,7 +97,7 @@ def carregar_intancia_igualdade_desigualdade(opcao):
 
 id_instancia = int(input("digite a opçao para resolução de igualdade e desigualdade você tem 1 e 2: "))
 [c, A_eq, b_eq, A_ub, b_ub] = carregar_intancia_igualdade_desigualdade(id_instancia)
-resultado = resolverIgualdadeDesigualdade(c,A_eq, b_eq, A_ub, b_ub)
+resultado = resolverIgualdadeDesigualdade(c, A_eq, b_eq, A_ub, b_ub)
 
 print("Valor otimo:", resultado.fun)
 print("os valores de x são: ")
