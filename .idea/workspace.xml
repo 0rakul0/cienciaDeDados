@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd69a5d4-ea87-4c17-9b36-ee467e28d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dataMiner05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataMiner06.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataMiner01.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataMiner01.py" afterDir="false" />
     </list>
@@ -28,6 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="24HaBo4XaCmwR3130eLQPWUbqrB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,7 +44,7 @@
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.twitter-profile-mining">
+  <component name="RunManager" selected="Python.dataMiner01">
     <configuration name="dataMiner01" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="cienciaDeDados" />
       <option name="INTERPRETER_OPTIONS" value="" />

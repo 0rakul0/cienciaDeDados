@@ -1,3 +1,4 @@
+#feito pelo professor Fernando Cardoso
 import plotly.express as px
 import inspect
 import json
@@ -13,9 +14,8 @@ import snscrape.modules.twitter as sntwitter
 # ## Content Mining
 k = "(Eleições OR Eleição OR Lula OR Bolsonaro OR Michel Temer OR Doria OR Eduardo Paes OR Presidente OR Governo OR Governador OR Sérgio Moro OR sf_moro OR SF_Moro OR Ciro OR Dilma)"
 
-maxTweets = 100
+maxTweets = 20
 years = [
-    2015, 2016, 2017, 2018,
     2019, 2020, 2021, 2022
 ]
 tweets = []
@@ -28,7 +28,7 @@ try:
                 break
             theme = k.split("OR")[0].replace("(", "")
 
-            #                     print(inspect.getmembers(tweet))
+           # print(inspect.getmembers(tweet))
 
             username = tweet.username
             text = tweet.content
@@ -85,10 +85,10 @@ final_set['to'] = final_set['to'].apply(lambda x: str(x).replace("https://twitte
 final_set['likes'].fillna(0, inplace=True)
 
 # Exporting Data
-final_set.to_csv("./data/elections_tweet_br.csv", index=False)
+#final_set.to_csv("./data/elections_tweet_br.csv", index=False)
 
 # Importing Data
-final_set = pd.read_csv("./data/elections_tweet_br.csv")
+#final_set = pd.read_csv("./data/elections_tweet_br.csv")
 
 # Exploring a Sample
 for k, v in final_set.sample(5).iterrows():
@@ -140,8 +140,8 @@ for u in final_set['username'].fillna("-1").unique():
 
 users_df = pd.DataFrame(users_list)
 users_df.info()
-users_df.to_csv('./data/twitter_users_mining.csv', index=False)
-users_df = pd.read_csv('./data/twitter_users_mining.csv')
+#users_df.to_csv('./data/twitter_users_mining.csv', index=False)
+#users_df = pd.read_csv('./data/twitter_users_mining.csv')
 
 joint_set = final_set.join(users_df.set_index('username'), on='username')
 joint_set.columns
@@ -300,6 +300,7 @@ fig.show()
 vocab = " ".join(joint_set['text'].values)
 
 # lista de stopword
+nltk.download()
 stopwords = set(STOPWORDS)
 stopwords.update(
     nltk.corpus.stopwords.words('portuguese') + ["q", "pra", "vc", "c", "p", "pq", "co", "aí", "tá", "t", "https"])
