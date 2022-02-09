@@ -1,22 +1,22 @@
 #feito pelo professor Fernando Cardoso
-import plotly.express as px
 import inspect
-import json
-import numpy as np
-import os
-import pandas as pd
 import matplotlib.pyplot as plt
-from PIL import Image
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import nltk
+import numpy as np
+import pandas as pd
+import plotly.express as px
 import snscrape.modules.twitter as sntwitter
+import plotly.graph_objects as go
+from pyvis import network as net
+from wordcloud import WordCloud, STOPWORDS
 
 # ## Content Mining
+#k = "(Eleições OR Eleição OR Lula OR Bolsonaro OR Michel Temer OR Doria OR Eduardo Paes OR Presidente OR Governo OR Governador OR Sérgio Moro OR sf_moro OR SF_Moro OR Ciro OR Dilma)"
 k = "(Eleições OR Eleição OR Lula OR Bolsonaro OR Michel Temer OR Doria OR Eduardo Paes OR Presidente OR Governo OR Governador OR Sérgio Moro OR sf_moro OR SF_Moro OR Ciro OR Dilma)"
 
 maxTweets = 20
 years = [
-    2019, 2020, 2021, 2022
+    2017, 2018, 2019, 2020, 2021, 2022
 ]
 tweets = []
 try:
@@ -27,9 +27,6 @@ try:
             if i > maxTweets:
                 break
             theme = k.split("OR")[0].replace("(", "")
-
-           # print(inspect.getmembers(tweet))
-
             username = tweet.username
             text = tweet.content
             pubdate = tweet.date
@@ -97,23 +94,16 @@ for k, v in final_set.sample(5).iterrows():
     print("Date: ", v['date'])
     print("Tweet: ", v['text'])
 
-
 # to explore the available features we can get
-
 inspect.getmembers(sntwitter.TwitterProfileScraper, predicate=inspect.ismethod)
 inspect.getmembers(sntwitter, lambda a:not(inspect.isroutine(a)))
 
-
 ### Profile Mining
-
 users_list = []
 for u in final_set['username'].fillna("-1").unique():
     if u != "-1":
         try:
             user = sntwitter.TwitterProfileScraper(u, isUserId=False)
-
-            #             print(inspect.getmembers(user))
-
             user_obj = {
                 "username": user.entity.username,
                 "displayname": user.entity.displayname,
@@ -225,7 +215,6 @@ def draw_graph3(networkx_graph, directed=True, notebook=True, output_filename='g
 
         (For more info: https://pyvis.readthedocs.io/en/latest/documentation.html#pyvis.network.Network.add_edge)
 
-
     Args:
         networkx_graph: The graph to convert and display
         notebook: Display in Jupyter?
@@ -234,9 +223,6 @@ def draw_graph3(networkx_graph, directed=True, notebook=True, output_filename='g
         only_physics_buttons: Show only buttons controlling physics of network?
     """
 
-    # import
-    from pyvis import network as net
-
     # make a pyvis network
     pyvis_graph = net.Network(notebook=notebook, directed=directed)
     pyvis_graph.set_edge_smooth('dynamic')
@@ -244,7 +230,7 @@ def draw_graph3(networkx_graph, directed=True, notebook=True, output_filename='g
     # for each node and its attributes in the networkx graph
     for node, node_attrs in networkx_graph.nodes(data=True):
         pyvis_graph.add_node(node, **node_attrs)
-    #         print(node,node_attrs)
+#        print(node,node_attrs)
 
     # for each edge and its attributes in the networkx graph
     for source, target, edge_attrs in networkx_graph.edges(data=True):
@@ -279,7 +265,7 @@ px.histogram(users_df.sort_values(by=['favorites'], ascending=False), x="usernam
 fig = px.box(joint_set, y="likes", x='username')
 fig.show()
 
-import plotly.graph_objects as go
+
 
 grouped_df = joint_set.groupby(['username']).sum().reset_index().query("likes >= 150")
 
