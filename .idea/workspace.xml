@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd69a5d4-ea87-4c17-9b36-ee467e28d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tx_bruta_mort1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statistic01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statistic02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statistic03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataMiner01.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataMiner01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataMiner03.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataMiner03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/elections.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafico_All.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/grafico_All.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/graph.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/noticias.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/noticias.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/noticias.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/noticias.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp-plot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/temp-plot.html" afterDir="false" />
-    </list>
+    <list default="true" id="bd69a5d4-ea87-4c17-9b36-ee467e28d7b3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
