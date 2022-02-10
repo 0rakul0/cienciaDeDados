@@ -40,7 +40,7 @@ for noticia in noticias:
 news = pd.DataFrame(lista_noticias, columns=['titulo', 'sub titulo', 'link'])
 
 """exportando os dados"""
-news.to_csv('noticias.csv', index=False)
-news.to_excel('noticias.xlsx', index=False)
+news.to_csv('data/noticias.csv', index=False)
+news.to_excel('data/noticias.xlsx', index=False)
 
 print(news)

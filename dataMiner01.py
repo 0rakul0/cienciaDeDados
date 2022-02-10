@@ -198,7 +198,7 @@ edges = direct_edges(adjacences)
 kbg = build_kb_graph(nodes, edges)
 
 ### Graph Visualization
-def draw_graph3(networkx_graph, directed=True, notebook=True, output_filename='graph.html', show_buttons=False,
+def draw_graph3(networkx_graph, directed=True, notebook=True, output_filename='html/graph.html', show_buttons=False,
                 only_physics_buttons=False):
     """
     This function accepts a networkx graph object,
@@ -302,4 +302,4 @@ ax.imshow(wordcloud, interpolation='bilinear')
 ax.set_axis_off()
 
 plt.imshow(wordcloud);
-wordcloud.to_file("elections.png")
+wordcloud.to_file("img/elections.png")
