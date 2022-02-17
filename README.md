@@ -1,8 +1,32 @@
 # Ciência De Dados
 repositório dedicado a ciência de dados divididos em 4 partes
     
--Data Analytics
--Big Data
+- Data Analytics
+- Data Miner
+- Machine Learning
+- Statistical Analysis
+
+===================================================
+- Regressão linear
+    usada para predições
+- Regressão logisticas
+    usada para classificações
+
+lembrar da função sigmóide <- produz um resultado entre 0 e 1
+checklist [  ]
+<ul>
+<li> [  ] imports </li>
+<li> [  ] diretório dos dados </li>
+<li> [  ] tratamento dos dados </li>
+<li> [  ] como você que esses dados sejam trabalhados funções etc...
+ </li>
+<li> [  ] treinamento </li>
+<li> [  ] saída </li>
+</ul>
+
+===================================================
+
+
 
 # Data Analytics
     
@@ -21,9 +45,12 @@ repositório dedicado a ciência de dados divididos em 4 partes
 # Machine Learning
     
     parte 1 - > estudando redes neurais
+    parte 2 - > RNN Regressão Linear
 
 # Statistics
     
     parte 1 - > estudando Taxa de mortalidade + Boxplot
     parte 2 - > Boxplot <- Distribuição de probabilidade
     parte 3 - > Codigo da aula adaptado para PyCharm
+
+
