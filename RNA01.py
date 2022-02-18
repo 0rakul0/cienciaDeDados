@@ -23,6 +23,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import seaborn as sns
 import matplotlib.pyplot as plt
+from yellowbrick.regressor import ResidualsPlot
 from sklearn.linear_model import LinearRegression
 import pandas as pd
 import numpy as np
@@ -80,7 +81,19 @@ print(previsoes)
 #tirando o formato de matriz
 #x_plano_saude.ravel()
 
-
 #grafico
 grafico = px.scatter(x= x_plano_saude.ravel(), y=y_plano_saude)
+grafico.add_scatter(x= x_plano_saude.ravel(), y=previsoes, name='Regressão')
 grafico.show()
+
+#outra forma
+#formula y = b0+b¹*x¹ <- simples
+valor_previsto = regressor_plano_saude.intercept_ + regressor_plano_saude.coef_ * x_plano_saude[0]
+valor_score = regressor_plano_saude.score(x_plano_saude, y_plano_saude)
+print(valor_previsto)
+print(valor_score)
+
+#grafico para quem tá mais longe a linha linear
+vizualizador = ResidualsPlot(regressor_plano_saude)
+vizualizador.fit(x_plano_saude, y_plano_saude)
+vizualizador.show()

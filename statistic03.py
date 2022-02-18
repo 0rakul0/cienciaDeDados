@@ -59,3 +59,7 @@ lista_outliers = tabela_mun_2021.iloc[outliers,:]
 print(lista_outliers)
 
 lista_outliers.to_excel('data/taxaBrutaMortalidade.xlsx', index=False)
+
+#vizualização detalhada dos quartis
+lista_outliers = lista_outliers.describe()
+print(lista_outliers)
