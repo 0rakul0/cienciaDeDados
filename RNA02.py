@@ -88,10 +88,10 @@ previsoes = regressor_simples_casas.predict(X_casas_treinamento)
 print(previsoes)
 
 #grafico
+
 grafico = px.scatter(x = X_casas_treinamento.ravel(), y = previsoes)
 grafico1 = px.scatter(x = X_casas_treinamento.ravel(), y = y_casas_treinamento)
 grafico2 = px.line(x = X_casas_treinamento.ravel(), y = previsoes)
 grafico2.data[0].line.color = 'red'
 grafico3 = go.Figure(data=grafico1.data + grafico2.data)
-grafico3
-grafico.show()
+grafico3.show()

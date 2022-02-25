@@ -34,7 +34,7 @@ with pd.option_context('display.max_rows', 10, 'display.max_columns', 2):
 
 #detector com knn
 detector = KNN()
-detector.fit(tabela.iloc[:,19:23])
+detector.fit(tabela.iloc[:, 19:23])
 
 #gerando previsores
 previsao = detector.labels_
@@ -55,7 +55,7 @@ for i in range(len(previsao)):
 print(outliers)
 
 #indices com nomes
-lista_outliers = tabela_mun_2021.iloc[outliers,:]
+lista_outliers = tabela_mun_2021.iloc[outliers, :]
 print(lista_outliers)
 
 lista_outliers.to_excel('data/taxaBrutaMortalidade.xlsx', index=False)

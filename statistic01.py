@@ -1,12 +1,6 @@
 # grafico statistico boxplot
-import lsm as lsm
 import pandas as pd
-import io
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 import plotly.express as px
-import statistics as st
 
 # geração de outliers
 tabela = pd.read_excel("data/tx_bruta_mort1.xlsx")
