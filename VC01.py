@@ -1,10 +1,13 @@
 import cv2
+import numpy as np
 # o cvzone permite fazer track nas mão é o que vamos usar para controlar objetos
 from cvzone.HandTrackingModule import HandDetector
+import cvzone
 
 # inicia a camera
 cap = cv2.VideoCapture(0)
-
+cap.set(3, 750)
+cap.set(4, 450)
 # configurações do cvzone
 detector = HandDetector(detectionCon=0.8)
 
@@ -17,7 +20,9 @@ cx, cy, w, h = 40, 40, 100, 100
 # 2 parte cirando uma classe para trabalhar com multiplos objetos
 
 class DragRect():
-    def __init__(self, posicaoCentral, tamanho=[100, 100]):
+    def __init__(self, posicaoCentral, tamanho=None):
+        if tamanho is None:
+            tamanho = [100, 100]
         self.posicaoCentral = posicaoCentral
         self.tamanho = tamanho
 
@@ -58,12 +63,22 @@ while True:
             for rect in rectLista:
                 rect.atualiza(cursor)
 
+    # parte 2 para outros tipos de objetos
+    imgNew = np.zeros_like(img, np.uint8)
     for rect in rectLista:
         # parte 2 atribuido objeto na tela
         cx, cy = rect.posicaoCentral
         w, h = rect.tamanho
         # lembrando que pode ser outras coisas como teclas
-        cv2.rectangle(img, (cx - w // 2, cy - h // 2), (cx + w // 2, cy + h // 2), colorR, cv2.FILLED)
+        cv2.rectangle(imgNew, (cx - w // 2, cy - h // 2), (cx + w // 2, cy + h // 2), colorR, cv2.FILLED)
+        # parte 2 marcadores do retangulo
+        cvzone.cornerRect(img, (cx - w // 2, cy - h // 2, w, h), 20, rt=0)
 
-    cv2.imshow("trak", img)
+    saida = img.copy()
+    tranparencia = 0.4
+    mascara = imgNew.astype(bool)
+    saida[mascara] = cv2.addWeighted(img, tranparencia, imgNew, 1 - tranparencia, 0)[mascara]
+
+    #criação da tela de video
+    cv2.imshow("trak", saida)
     cv2.waitKey(1)
