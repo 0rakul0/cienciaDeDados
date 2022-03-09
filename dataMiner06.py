@@ -11,6 +11,7 @@ site = requests.get(html_votos, headers=headers)
 soup = BeautifulSoup(site.content, 'html.parser')
 
 votos = []
+#soup.find_all("div", attrs={"class": "custom-representative"})
 for deputado in soup.find_all("div", attrs={"class": "custom-representative"}):
     dados_deputado = []
     #voto_deputado = deputado['data-choice']

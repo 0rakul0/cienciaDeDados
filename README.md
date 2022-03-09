@@ -54,3 +54,5 @@ checklist [  ]
     parte 3 - > Codigo da aula adaptado para PyCharm
 
 
+https://pyautogui.readthedocs.io/en/latest/
+https://pypi.org/project/pyperclip/
