@@ -26,8 +26,6 @@ checklist [  ]
 
 ===================================================
 
-
-
 # Data Analytics
     
     parte 1 - > estudando finaças
@@ -41,6 +39,7 @@ checklist [  ]
     parte 2 - > BeautifulSoup
     parte 3 - > BeautifulSoup + Pandas
     parte 4 - > Selenium + webdriver
+    
 
 # Machine Learning
     
