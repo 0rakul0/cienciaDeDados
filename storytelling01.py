@@ -1,4 +1,7 @@
 """
+link de estudo
+https://www.linkedin.com/learning/introducao-a-ciencia-de-dados-como-contar-historias-com-dados/boas-vindas-2?autoplay=true&resume=false
+
 # Etapas de um storytelling
 
 [ ] = elaboração do errendo, saber o que diz e o que mostra não é a mesma coisa.
