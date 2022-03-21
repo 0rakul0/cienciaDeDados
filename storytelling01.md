@@ -14,38 +14,42 @@ https://www.linkedin.com/learning/introducao-a-ciencia-de-dados-como-contar-hist
 [ ] = com os dados apresentados mostre o significado (o objetivo da apresentação, ser direto ao ponto).
 </li>
 </ul>
+
 # Notas
 
 <ol>
 <li>
-1 — O ser humano se distrai por qualquer coisa, até por uma mosca voando.
+— O ser humano se distrai por qualquer coisa, até por uma mosca voando.
 </li>
 <li>
-2 — Aproveitar a dinamica usando o público para manter a atenção usando recursos como perguntas.
+— Aproveitar a dinamica usando o público para manter a atenção usando recursos como perguntas.
 </li>
 <li>
-3 — mantenha a curiosidade, logo dizer o que eles irão ver como uma ementa é uma boa estratégia.
+— mantenha a curiosidade, logo dizer o que eles irão ver como uma ementa é uma boa estratégia.
 </li>
 <li>
-4 — usar analogias, metáforas, exemplos práticos.
+— usar analogias, metáforas, exemplos práticos.
 </li>
 <li>
-5 — não ser egocentrico, o foco das atenções é público e não você.
+— não ser egocentrico, o foco das atenções é público e não você.
 </li>
 <li>
-6 — o importante... cative, lembre-se o público é uma pessoa como você, então não seja sério o tempo inteiro.
+— o importante... cative, lembre-se o público é uma pessoa como você, então não seja sério o tempo inteiro.
 </li>
 </ol>
 
 # Como começar — fio condutor
 
 Qual o objetivo da apresentação?
-$ comece se apresentando, fale do problema que merece atenção.
+
+Comece se apresentando, fale do problema que merece atenção.
+
 — use-o como titulo
 > caso a apresentação é sobre aumento ou queda nas vendas, já é algo que deve levar muito em consideração.
 > por tanto não comece a apresentar dados na cara do público, o envolva primeiro, isso irá buscar a empatia dos mesmos.
 
 $ utilize analogias para puxar a atenção devida do seu público.
+
 — não inicie com números... isso assusta as pessoas
 > exemplo de venda, já tentou comprar o próprio produto? Como é a experiência pós-compra?
 > tudo isso faz parte de ajustar o produto com a empresa.
