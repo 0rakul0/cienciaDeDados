@@ -1,4 +1,3 @@
-"""
 link de estudo
 https://www.linkedin.com/learning/introducao-a-ciencia-de-dados-como-contar-historias-com-dados/boas-vindas-2?autoplay=true&resume=false
 
@@ -31,7 +30,7 @@ https://www.linkedin.com/learning/introducao-a-ciencia-de-dados-como-contar-hist
 — usar analogias, metáforas, exemplos práticos.
 </li>
 <li>
-— não ser egocentrico, o foco das atenções é público e não você.
+— não seja egocentrico, o foco das atenções é público e não você.
 </li>
 <li>
 — o importante... cative, lembre-se o público é uma pessoa como você, então não seja sério o tempo inteiro.
@@ -60,31 +59,40 @@ $ utilize analogias para puxar a atenção devida do seu público.
 # Processo criativo — o desenrolar e os seus componentes
 
 — auxiliares do processo criativo.
-> pequenas histórias
-    use para contexto, não como foco da atenção, pode ser o problema que surge na empresa
+> pequenas histórias:
+    > são usadas para o contexto, não como foco da atenção, mas pode ser o problema que surge na empresa
 
-> estudo de casos
-    é um relato de um pequeno problema e como se chegou a uma solução, é util quando tem problemas semelhantes
+> estudo de casos: 
+    > é um relato de um pequeno problema e como se chegou a uma solução, é util quando tem problemas semelhantes
 
-> exemplos
-    é semelhante ao estudo de caso..., porém sem resolução, entretando é algo que merece a atenção, pois sem a atenção
-    devida a empresa pode ficar a deriva
+> exemplos: 
+    > são semelhantes ao estudo de caso..., porém sem resolução, entretando é algo que merece a atenção, pois sem a atenção
+    > devida a empresa pode ficar a deriva
 
-> cenário
-    é uma série de eventos -> como um algoritimo de rotas em que pode se prever o comportamento de determinados cenários
+> cenário: 
+    > são uma série de eventos -> como um algoritimo de rotas em que pode se prever o comportamento de determinados cenários
 
-> vinheta
-    é uma história contada na terceira pessoa, como um exemplo do problema maior.
+> vinheta: 
+    > é uma história contada na terceira pessoa, como um exemplo do problema maior.
 
 
-# estrutura da história
+# Estrutura da história
 
 — Assim como uma redação deve ter início, meio e fim.
- > o início define o contexto
-    é onde se introduz as pessoas o cenario e como estão as coisas, muitas vezes o estudo de caso.
- > o meio o desenvolvimento.
-    O desenvolvimento também pode ser o conflito. O do porque 
- > o fim a resolução
-
-
-"""
+ > o início define o contexto:
+    > é onde se introduz as: pessoas, o cenário e como estão as coisas, muitas vezes o estudo de caso.
+ > o meio o desenvolvimento:
+    > O desenvolvimento também pode ser o conflito. O do porquê. Nessa etapa podemos falar como podemos entrar em ação
+    > assim como uma redação nessa parte podemos separar em duas etapas assim como citado na introdução, aqui abordamos
+    > o problema e como chegou ao ponto que está. A partir desse ponto começamos com a análise exploratória de como 
+    > pesquisou o assunto e mostrar algo vizual como um gráfico mostrando um conjunto de detalhes citados no exemplo que
+    > que foi abordado. 
+       
+ > o fim a resolução:
+    > Pode começar como... a conexão mais forte que conseguimos encontrar é (falar sobre fatores que chegaram ao ponto)
+    > exemplo a compra de mais chocolates ao passar pela sessão íntima feminina, ou a crescente demanda de material 
+    > esportivo por conta da academia. 
+    > Nesse ponto podemos usar uma vinheta para exemplicar o motivo dos nossos dados e fazer uma pergunta de conectivo 
+    > ao público, lembre-se quanto mais informação jogar mais memória de peixe o público fica.
+  
+# Enredo 
