@@ -1,10 +1,15 @@
-import matplotlib.pyplot as plt
-import pandas as pd
 import numpy as np
-import statistics
-import plotly.express as px
+import pandas as pd
 
-#importando planilha
+"""
+participantes
+Jefferson Silva dos Anjos: 2016200130 
+Bruno Rocha:    2015101850
+João victor costa da cruz: 2015101476
+Paulo henrique: 2015101631
+"""
+
+# importando planilha
 tabela = pd.read_excel("data/trabalho_02.xlsx")
 
 # verificando se há valores nullos
@@ -14,9 +19,9 @@ tabela.isnull().sum()
 tabela.dropna(inplace=True)
 
 # toda a tabela
-#print(tabela)
+# print(tabela)
 
-#tabela que será trabalhada
+# tabela que será trabalhada
 nova_tabela = pd.DataFrame(tabela, columns=['Nome', 'altura'])
 print(nova_tabela)
 
@@ -32,11 +37,11 @@ tamanho_populacao = 46
 amostra = 21
 media = nova_tabela['altura'].mean()
 desvio_padrao = np.std(nova_tabela['altura'])
-erro_padrao = (desvio_padrao/np.sqrt(amostra))
+erro_padrao = (desvio_padrao / np.sqrt(amostra))
 intervalo_confianca = 1.96
 e = intervalo_confianca * erro_padrao
-min_intervalo = media-e
-max_intervalo = media+e
+min_intervalo = media - e
+max_intervalo = media + e
 
 print(f"desvio padrão: {desvio_padrao}")
 print(f"erro padrão: {erro_padrao}")
