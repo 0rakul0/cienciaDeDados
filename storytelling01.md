@@ -37,9 +37,30 @@ $ utilize analogias para puxar a atenção devida do seu público.
 
 — auxiliares do processo criativo.
 > pequenas histórias
-    use para contexto, não como foco da atenção, pode ser o problema que estão tendo na empresa
+    use para contexto, não como foco da atenção, pode ser o problema que surge na empresa
+
 > estudo de casos
+    é um relato de um pequeno problema e como se chegou a uma solução, é util quando tem problemas semelhantes
+
 > exemplos
+    é semelhante ao estudo de caso..., porém sem resolução, entretando é algo que merece a atenção, pois sem a atenção
+    devida a empresa pode ficar a deriva
+
+> cenário
+    é uma série de eventos -> como um algoritimo de rotas em que pode se prever o comportamento de determinados cenários
+
 > vinheta
+    é uma história contada na terceira pessoa, como um exemplo do problema maior.
+
+
+# estrutura da história
+
+— Assim como uma redação deve ter início, meio e fim.
+ > o início define o contexto
+    é onde se introduz as pessoas o cenario e como estão as coisas, muitas vezes o estudo de caso.
+ > o meio o desenvolvimento.
+    O desenvolvimento também pode ser o conflito. O do porque 
+ > o fim a resolução
+
 
 """
