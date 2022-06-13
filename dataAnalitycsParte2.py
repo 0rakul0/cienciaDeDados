@@ -26,7 +26,7 @@ matplotlib.rcParams['axes.labelsize'] = 14
 matplotlib.rcParams['xtick.labelsize'] = 12
 matplotlib.rcParams['ytick.labelsize'] = 12
 
-dados_series = yf.download("PETR4.SA", start="2018-01-01", end="2022-01-16")
+dados_series = yf.download("PETR4.SA", start="2020-01-01", end="2022-03-20")
 
 with pd.option_context('display.max_rows', 10):
     print(df_names_tickers)
@@ -35,7 +35,7 @@ with pd.option_context('display.max_rows', 10):
 sns.set_theme(style="darkgrid")
 sns.displot(dados_series['Close'].dropna())
 
-pio.renderers
+render = pio.renderers
 
 dados_grafico = [go.Scatter(x=dados_series.index, y=dados_series['Close'])]
 
@@ -69,11 +69,11 @@ y = y/norma
 print('dados_normalizados: {}'.format(y))
 
 """
-plt.title('Serie Temporal - Normalizada')
-plt.xlabel('Periodo')
-plt.ylabel('Valor')
-plt.plot(x, y)
-plt.show()
+# plt.title('Serie Temporal - Normalizada')
+# plt.xlabel('Periodo')
+# plt.ylabel('Valor')
+# plt.plot(x, y)
+# plt.show()
 
 """Para treinamento é necessario separar para historico e teste"""
 percentual_treinamento = 0.8
@@ -106,13 +106,12 @@ def create_dataset(n_X, look_back):
         a = n_X[i:(i + look_back), ]
         print('a: {}'.format(a))
         dataX.append(a)
-        dataY.append(n_X[i + look_back,])
+        dataY.append(n_X[i + look_back])
     print('dataX: {}'.format(dataX))
     return np.array(dataX), np.array(dataY)
 
 
 """Ajuste de dados"""
-
 
 def prepara_dados(dados_serie, look_back):
     x, y = [], []
@@ -149,27 +148,26 @@ x_teste = x_teste.reshape((x_teste.shape[0],
 for i in range(5):
     print('treino[{}]: {} -> {}'.format(i + 1, x_treino[i], y_treino[i]))
 
-
 """rede neural do tipo LSTM de camada densa"""
 """ 
     o dorpout basicamente desliga alguns neuronios ( baias, nós )
     para que o apredizado não fique viciado
  """
 
-n_etapas = x_treino.shape[1] # dados atrás para treino
-n_caracteristicas = x_treino.shape[2] # numero de caracteristicas
-epocas = 20 # quantidade de ciclos de treinamentos
-n_unidades = 100 # numero de nós -> bais -> neuroninios
+n_etapas = x_treino.shape[1]  # dados atrás para treino
+n_caracteristicas = x_treino.shape[2]  # numero de caracteristicas
+epocas = 20  # quantidade de ciclos de treinamentos
+n_unidades = 100  # numero de nós -> bais -> neuroninios
 
-tf.random.set_seed(8888) # semente para garantir a reprodutibilidade
+tf.random.set_seed(8888)  # semente para garantir a reprodutibilidade
 
 """modelo da rede"""
 modelo = Sequential()
-camada_de_entrada = (n_etapas, n_caracteristicas) #info das etapas e caracteristicas
+camada_de_entrada = (n_etapas, n_caracteristicas)  # info das etapas e caracteristicas
 modelo.add(LSTM(n_unidades,
                 return_sequences=True,
                 input_shape=camada_de_entrada))
-modelo.add(Dropout(0.2)) # ele deslida de maneira aletória 20% dos nós
+modelo.add(Dropout(0.2))  # ele deslida de maneira aletória 20% dos nós
 modelo.add(LSTM(128,
                 input_shape=camada_de_entrada))
 modelo.add(Dense(1))
@@ -184,7 +182,7 @@ modelo.compile(loss='mean_squared_error',
 
 """usando dados na rede"""
 historico = modelo.fit(x_treino, y_treino,
-                       epochs= epocas,
+                       epochs=epocas,
                        batch_size=70,
                        verbose=2,
                        shuffle=False,
@@ -200,27 +198,27 @@ loss = modelo.evaluate(x_teste, y_teste, batch_size=64)
 print("loss: {}".format(loss))
 
 """grafico"""
-plt.title('Cálculo de Erro ao longo do treinamento')
-plt.ylabel('Erro')
-plt.xlabel('Época')
-plt.plot(historico.history['loss'])
-plt.plot(historico.history['val_loss'])
-plt.legend(['loss (treinamento)','val_loss (validação)'], loc='upper right')
-plt.show()
+# plt.title('Cálculo de Erro ao longo do treinamento')
+# plt.ylabel('Erro')
+# plt.xlabel('Época')
+# plt.plot(historico.history['loss'])
+# plt.plot(historico.history['val_loss'])
+# plt.legend(['loss (treinamento)', 'val_loss (validação)'], loc='upper right')
+# plt.show()
 
 """modelo de predição"""
 predicao = modelo.predict(x_teste)
 
 escala = 1
-look_back=1
-valores_reais_y = y_teste*escala
-plt.figure(figsize=(50,10))
+look_back = 1
+valores_reais_y = y_teste * escala
+plt.figure(figsize=(50, 10))
 plt.plot(list(range(len(valores_reais_y))),
          valores_reais_y,
          marker='.',
          label="Real")
 
-lst_dados_predicao = [w[0]*escala for w in predicao]
+lst_dados_predicao = [w[0] * escala for w in predicao]
 plt.plot(list(range(len(predicao))),
          lst_dados_predicao,
          'r',

@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd69a5d4-ea87-4c17-9b36-ee467e28d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/statistic05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cienciaDeDados.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cienciaDeDados.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dados/Distribui��o da popula��o (em rela��o � coluna) por Regi�o de Sa�de segundo Munic�pio 2020.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dados/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Regi�o de Sa�de 2011 a 2021.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dados/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Sexo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dados/Indicadores de mortalidade por DCNT - TME diabete melito por Faixa et�ria DCNT segundo Ano 2011 a 2021.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dados/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Ano 2011 a 2021.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dados/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Regi�o de Sa�de 2021.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dados/Propor��o de idosos na popula��o por Regi�o de Sa�de segundo Munic�pio 2020.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dados/Índice de envelhecimento – A.15.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Dados/�ndice de envelhecimento por Regi�o de Sa�de segundo Sexo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storytelling01.md" beforeDir="false" afterPath="$PROJECT_DIR$/storytelling01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Regiao de Saude 2011 a 2021.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Regiao de Saude 2011 a 2021.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Sexo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Sexo.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Faixa etaria DCNT segundo Ano 2011 a 2021.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Faixa etaria DCNT segundo Ano 2011 a 2021.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Ano 2011 a 2021.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Ano 2011 a 2021.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Regiao de Saude 2021.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Regiao de Saude 2021.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baiana/indice de envelhecimento por Regiao de Saude segundo Sexo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/indice de envelhecimento por Regiao de Saude segundo Sexo.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataAnalitycsParte2.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataAnalitycsParte2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statistic05.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistic05.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +55,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dashboard" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/jeffe/Desktop/git/Elasticsearch",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados" />
@@ -70,13 +71,14 @@
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\botcity" />
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\data" />
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\img" />
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\html" />
     </key>
   </component>
   <component name="RunManager" selected="Python.statistic05">
-    <configuration name="automation03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="automation04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cienciaDeDados" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +90,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation03.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\jeffe\Desktop\git\cienciaDeDados\botcity\automation04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cienciaDeDados" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/botbase/botbase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/botbase/botbase/bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dataAnalitycsParte2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cienciaDeDados" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataAnalitycsParte2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,27 +162,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataMiner07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cienciaDeDados" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataMiner07.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="python_firebase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cienciaDeDados" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,27 +175,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\jeffe\Desktop\git\cienciaDeDados\python_firebase.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="statistic04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cienciaDeDados" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/statistic04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,10 +207,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.statistic05" />
+        <item itemvalue="Python.bot" />
+        <item itemvalue="Python.automation04" />
+        <item itemvalue="Python.dataAnalitycsParte2" />
         <item itemvalue="Python.python_firebase" />
-        <item itemvalue="Python.dataMiner07" />
-        <item itemvalue="Python.statistic04" />
-        <item itemvalue="Python.automation03" />
       </list>
     </recent_temporary>
   </component>

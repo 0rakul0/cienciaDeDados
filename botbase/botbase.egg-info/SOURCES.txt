@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+botbase/__init__.py
+botbase/__main__.py
+botbase/bot.py
+botbase.egg-info/PKG-INFO
+botbase.egg-info/SOURCES.txt
+botbase.egg-info/dependency_links.txt
+botbase.egg-info/requires.txt
+botbase.egg-info/top_level.txt
+botbase/resources/start.png
