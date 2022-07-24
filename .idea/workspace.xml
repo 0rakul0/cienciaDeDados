@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd69a5d4-ea87-4c17-9b36-ee467e28d7b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dados_aula1_estados_brasil.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dados_aula1_pnad.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dados_aula1_pnad.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataMiner08.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cienciaDeDados.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cienciaDeDados.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Regiao de Saude 2011 a 2021.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Regiao de Saude 2011 a 2021.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Sexo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Ano segundo Sexo.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Faixa etaria DCNT segundo Ano 2011 a 2021.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Faixa etaria DCNT segundo Ano 2011 a 2021.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Ano 2011 a 2021.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Ano 2011 a 2021.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Regiao de Saude 2021.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/Indicadores de mortalidade por DCNT - TME diabete melito por Sexo segundo Regiao de Saude 2021.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/baiana/indice de envelhecimento por Regiao de Saude segundo Sexo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/baiana/indice de envelhecimento por Regiao de Saude segundo Sexo.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataAnalitycsParte2.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataAnalitycsParte2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistic05.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistic05.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +22,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -59,12 +66,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/jeffe/Desktop/git/Elasticsearch",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jeff/Desktop/GITHUB/cienciaDeDados/data",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jeff\Desktop\GITHUB\cienciaDeDados\data" />
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados" />
       <recent name="C:\Users\jeffe\Desktop" />
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\ocr_captcha" />
@@ -77,7 +86,7 @@
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\html" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.statistic05">
+  <component name="RunManager" selected="Python.dataMiner08">
     <configuration name="automation04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cienciaDeDados" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,6 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\jeffe\Desktop\git\cienciaDeDados\botcity\automation04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -111,6 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/botbase/botbase/bot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -132,6 +143,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataAnalitycsParte2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -153,6 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataMiner01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -162,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_firebase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dataMiner08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cienciaDeDados" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,7 +187,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\jeffe\Desktop\git\cienciaDeDados\python_firebase.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataMiner08.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,6 +209,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/statistic05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -206,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dataMiner08" />
         <item itemvalue="Python.statistic05" />
         <item itemvalue="Python.bot" />
         <item itemvalue="Python.automation04" />
         <item itemvalue="Python.dataAnalitycsParte2" />
-        <item itemvalue="Python.python_firebase" />
       </list>
     </recent_temporary>
   </component>
@@ -222,8 +237,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643289833191</updated>
+      <workItem from="1657144509897" duration="3065000" />
+      <workItem from="1657200579070" duration="34000" />
+      <workItem from="1658594163801" duration="1966000" />
+      <workItem from="1658597117980" duration="281000" />
+      <workItem from="1658605137723" duration="14133000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -235,5 +258,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/statistic05_py$dataMiner08.coverage" NAME="dataMiner08 Coverage Results" MODIFIED="1658605560370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
