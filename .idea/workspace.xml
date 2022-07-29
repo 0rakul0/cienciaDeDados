@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd69a5d4-ea87-4c17-9b36-ee467e28d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/mapa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearn01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/advertising.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/novos.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataMiner08.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataMiner08.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,15 +59,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jeff/Desktop/GITHUB/cienciaDeDados/data",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jeff/Desktop/GITHUB/cienciaDeDados/data&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jeff\Desktop\GITHUB\cienciaDeDados\data" />
@@ -78,14 +77,15 @@
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jeff\Desktop\GITHUB\cienciaDeDados\data" />
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\botcity" />
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\data" />
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\img" />
       <recent name="C:\Users\jeffe\Desktop\git\cienciaDeDados\html" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.maps01">
-    <configuration name="automation04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.MachineLearn01">
+    <configuration name="MachineLearn01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cienciaDeDados" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +98,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\jeffe\Desktop\git\cienciaDeDados\botcity\automation04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearn01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MachineLearn01" />
         <item itemvalue="Python.maps01" />
         <item itemvalue="Python.dataMiner08" />
         <item itemvalue="Python.statistic05" />
         <item itemvalue="Python.bot" />
-        <item itemvalue="Python.automation04" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +240,9 @@
       <workItem from="1658594163801" duration="1966000" />
       <workItem from="1658597117980" duration="281000" />
       <workItem from="1658605137723" duration="14861000" />
-      <workItem from="1658673855088" duration="4813000" />
+      <workItem from="1658673855088" duration="5262000" />
+      <workItem from="1658705584797" duration="2000" />
+      <workItem from="1659049915147" duration="6478000" />
     </task>
     <servers />
   </component>
@@ -264,7 +266,8 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/statistic05_py$MachineLearn01.coverage" NAME="MachineLearn01 Coverage Results" MODIFIED="1659056151302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/statistic05_py$dataMiner08.coverage" NAME="dataMiner08 Coverage Results" MODIFIED="1658605560370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/statistic05_py$maps01.coverage" NAME="maps01 Coverage Results" MODIFIED="1658685874268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/statistic05_py$maps01.coverage" NAME="maps01 Coverage Results" MODIFIED="1658685939045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
