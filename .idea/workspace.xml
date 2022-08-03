@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd69a5d4-ea87-4c17-9b36-ee467e28d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MachineLearn01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/advertising.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/novos.csv" afterDir="false" />
+    <list default="true" id="bd69a5d4-ea87-4c17-9b36-ee467e28d7b3" name="Changes" comment="machine learn">
+      <change afterPath="$PROJECT_DIR$/dataMiner09.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -242,8 +240,18 @@
       <workItem from="1658605137723" duration="14861000" />
       <workItem from="1658673855088" duration="5262000" />
       <workItem from="1658705584797" duration="2000" />
-      <workItem from="1659049915147" duration="6478000" />
+      <workItem from="1659049915147" duration="7091000" />
+      <workItem from="1659187817787" duration="2331000" />
+      <workItem from="1659479292514" duration="4376000" />
     </task>
+    <task id="LOCAL-00001" summary="machine learn">
+      <created>1659056461163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659056461163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +272,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/darknet" />
     </ignored-roots>
+    <MESSAGE value="machine learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="machine learn" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/statistic05_py$MachineLearn01.coverage" NAME="MachineLearn01 Coverage Results" MODIFIED="1659056151302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
